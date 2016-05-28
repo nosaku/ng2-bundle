@@ -9,8 +9,7 @@ copy(
 './node_modules/zone.js/dist/zone.min.js',
 ], 'dist', {flatten: true}, function(err, file) {
 	console.log('done copying required JS files');
-});
-
-copy('dist/*', 'example/dist', {flatten: true}, function(err, file) {
-	console.log('done copying dist to example');
+	copy('dist/*', 'example/dist', {flatten: true}, function(err, file) {
+		console.log('done copying dist to example');
+	});
 });

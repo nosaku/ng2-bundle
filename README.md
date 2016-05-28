@@ -5,10 +5,11 @@ A project to create Angular 2 bundle JS for testing applications created in the 
 
     npm install -g http-server
     npm install
+    npm run bundle
         
 After the npm install, you will see the Angular 2 bundle and other required JS files in dist directory. Use the bundled index.html for testing directly in the browser. For doing this use:
     
-    cd examples
+    cd example
     http-server -c-1
 
 Then open a browser at the following url:
