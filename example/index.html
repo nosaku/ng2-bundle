@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Set the base href -->
+    <script>
+        document.write('<base href="' + document.location + '" />');
+    </script>
+    <meta charset="UTF-8">
+    <title>ng2-bundle</title>
+
+</head>
+
+<body>
+    <app></app>
+</body>
+
+<script src="dist/zone.min.js"></script>
+<script src="dist/Reflect.js"></script>
+<script src="dist/system.js"></script>
+<script src="dist/typescript.js"></script>
+
+<script src="system.config.js"></script>
+<script src="dist/angular2-bundle.js"></script>
+<script>
+    System.import('app').catch(console.log.bind(console));
+</script>
+
+</html>
