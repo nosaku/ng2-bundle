@@ -29,4 +29,3 @@ For bootstrapping an app, please use the official [angular-cli](https://cli.angu
 # Credit
 
 This repo is based on the [ng2-minimal](https://github.com/jhades/ng2-minimal) made by [jhades](https://github.com/jhades).
-
