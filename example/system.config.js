@@ -35,11 +35,13 @@ System.config({
         '@angular/http': {
             main: 'index'
         },
+        '@angular/upgrade': {
+            main: 'index'
+        },
         'rxjs': {
             main: "Rx"
         },
         'app': {
-            //main: 'app'
             main: 'main.ts',
             defaultExtension: 'ts'
         }

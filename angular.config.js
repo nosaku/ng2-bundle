@@ -28,6 +28,9 @@ System.config({
         '@angular/http': {
             main: 'index'
         },
+        '@angular/upgrade': {
+            main: 'index'
+        },
         'rxjs': {
             main: "Rx"
         }
