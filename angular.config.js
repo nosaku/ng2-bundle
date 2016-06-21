@@ -31,6 +31,9 @@ System.config({
         '@angular/upgrade': {
             main: 'index'
         },
+        '@angular/forms': {
+            main: 'index'
+        },
         'rxjs': {
             main: "Rx"
         }
