@@ -5,5 +5,4 @@ import {Component} from '@angular/core';
     	<h1>Hello component</h1>
 	`
 })
-
 export class HelloComponent { }
